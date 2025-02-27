@@ -1,8 +1,8 @@
 /* ================ Сбросс стилей ================ */
 
 * {
-   padding: 0px;
-   margin: 0px;
+   padding: 0;
+   margin: 0;
    box-sizing: border-box;
 }
 
@@ -59,12 +59,11 @@ button:hover {
    padding: 0 15px;
    margin-left: auto;
    margin-right: auto;
-   border: 1px solid red;
 }
 
 /* ================ Стили для Хедера ================ */
 
-.header {
+header {
    background-color: #0A61F7;
    padding: 14px 0;
 }
@@ -314,7 +313,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 /* ================ Стили для футера ================ */
 
-.footer {
+footer {
    background-color: #0A61F7;
    text-align: center;
    padding: 20px 0;
